@@ -6,6 +6,6 @@ int main(){
     cin >> x;
     cout << "Ingrese la altura: ";
     cin >> y;
-    cout << "La base del triangulo es " << (x*y)/2;
+    cout << "La base del triangulo es " << (x*y)/2.00;
     return 0;
 }
