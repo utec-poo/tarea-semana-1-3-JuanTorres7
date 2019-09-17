@@ -5,7 +5,7 @@ int main (){
     int i, n, num;
     cout << "Input de numero entero: ";
     cin >> num;
-    if (num > 0 && num <= 30){
+    if (num > 10 && num <= 30){
         for (i=1;i<=num;i++){
             for(n=1; i>=n; n++)
                 cout << "*";
